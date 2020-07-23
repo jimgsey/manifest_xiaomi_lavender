@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: lavender
+    * rom: Superior OS
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/SuperiorOS-Devices" name="org" />
+	
+    <!-- Device -->
+    <project name="device_xiaomi_lavender" path="device/xiaomi/lavender" remote="org" revision="ten" />
+    <project name="device_xiaomi_lavender-common" path="device/xiaomi/sdm660-common" remote="org" revision="ten" />
+    
+    <!-- Kernel -->
+    <project name="kernel_xiaomi_lavender" path="kernel/xiaomi/sdm660" remote="org" revision="ten" />
+
+    <!-- Vendor -->
+    <project name="vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" remote="org" revision="ten" />
+    <project name="vendor_xiaomi_lavender-common" path="vendor/xiaomi/sdm660-common" remote="org" revision="ten" />
+</manifest>
